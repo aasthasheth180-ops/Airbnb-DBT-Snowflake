@@ -1,0 +1,6 @@
+{
+    "dbt.profilesDir": "aws_dbt_snowflake_project",
+    "dbt.projectDir": "aws_dbt_snowflake_project",
+    "dbt.adapter": "snowflake",
+    "dbt.enableDefaultProfile": true
+}

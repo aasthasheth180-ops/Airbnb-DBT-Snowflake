@@ -1,0 +1,116 @@
+[0m09:35:22.639545 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237C62E99A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237CB4BD2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237CB460FB0>]}
+
+
+============================== 09:35:22.790666 | be663cb9-f401-43b9-b76c-9ae1e0c31b32 ==============================
+[0m09:35:22.790666 [info ] [MainThread]: Running with dbt=1.11.8
+[0m09:35:22.791620 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt init', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m09:35:23.151757 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\DELL\.dbt
+[0m09:36:15.588476 [debug] [MainThread]: Starter project path: C:\Users\DELL\Downloads\Project\Snowflake\.venv\Lib\site-packages\dbt\include\starter_project
+[0m09:36:15.625027 [info ] [MainThread]: 
+Your new dbt project "aws_dbt_snowflake_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:36:15.625983 [info ] [MainThread]: Setting up your profile.
+[0m09:36:34.553759 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m09:36:34.561718 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m09:36:34.562725 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m09:48:40.415654 [info ] [MainThread]: Profile aws_dbt_snowflake_project written to C:\Users\DELL\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m09:48:40.485242 [debug] [MainThread]: Command `dbt init` succeeded at 09:48:40.485242 after 798.03 seconds
+[0m09:48:40.501387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237CDB14BC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237CF5D7050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000237CD9EF2C0>]}
+[0m09:48:40.506898 [debug] [MainThread]: Flushing usage events
+[0m09:48:40.815474 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:11:21.386341 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299D11732C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299D1173620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299D11714F0>]}
+
+
+============================== 13:11:21.392710 | d6fb8347-4767-424d-8d35-a8120bd1b8e7 ==============================
+[0m13:11:21.392710 [info ] [MainThread]: Running with dbt=1.11.8
+[0m13:11:21.393714 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m13:11:21.455526 [info ] [MainThread]: dbt version: 1.11.8
+[0m13:11:21.455526 [info ] [MainThread]: python version: 3.12.13
+[0m13:11:21.455526 [info ] [MainThread]: python path: C:\Users\DELL\Downloads\Project\Snowflake\.venv\Scripts\python.exe
+[0m13:11:21.455526 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m13:11:21.455526 [info ] [MainThread]: Using profiles dir at C:\Users\DELL\.dbt
+[0m13:11:21.455526 [info ] [MainThread]: Using profiles.yml file at C:\Users\DELL\.dbt\profiles.yml
+[0m13:11:21.455526 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\DELL\Downloads\Project\Snowflake\dbt_project.yml
+[0m13:11:21.455526 [info ] [MainThread]: Configuration:
+[0m13:11:21.455526 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m13:11:21.455526 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m13:11:21.455526 [info ] [MainThread]: Required dependencies:
+[0m13:11:21.455526 [debug] [MainThread]: Executing "git --help"
+[0m13:11:21.509127 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m13:11:21.509127 [debug] [MainThread]: STDERR: "b''"
+[0m13:11:21.509127 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m13:11:21.509127 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m13:11:21.509127 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m13:11:21.509127 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\DELL\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m13:11:21.509127 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\DELL\Downloads\Project\Snowflake\dbt_project.yml> not found
+
+[0m13:11:21.509127 [debug] [MainThread]: Command `dbt debug` failed at 13:11:21.509127 after 0.28 seconds
+[0m13:11:21.509127 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299CE11D820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299D1B57F80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299D0C9D7C0>]}
+[0m13:11:21.509127 [debug] [MainThread]: Flushing usage events
+[0m13:11:21.706091 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:04:43.795946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A2AC7803B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A2AC780620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A2AC783530>]}
+
+
+============================== 14:04:43.800034 | 36cfe4df-3fbf-45af-ae9d-b781204dafec ==============================
+[0m14:04:43.800034 [info ] [MainThread]: Running with dbt=1.11.8
+[0m14:04:43.801035 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': '.', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt run --full-refresh --profiles-dir .', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:04:43.801946 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\DELL\Downloads\Project\Snowflake\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:04:43.801946 [debug] [MainThread]: Command `dbt run` failed at 14:04:43.801946 after 0.14 seconds
+[0m14:04:43.803040 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A2AC7BDCD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A2AC3F8470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A2ADF57680>]}
+[0m14:04:43.803040 [debug] [MainThread]: Flushing usage events
+[0m14:04:43.934562 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:42:31.946129 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000167D5F4D820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000167D63429C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000167D6340440>]}
+
+
+============================== 09:42:31.946129 | 11cd1e48-61ec-43bb-997f-210389d487a2 ==============================
+[0m09:42:31.946129 [info ] [MainThread]: Running with dbt=1.11.8
+[0m09:42:31.946129 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': '.', 'invocation_command': 'dbt compile --profiles-dir .', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m09:42:31.946129 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\DELL\Downloads\Project\Snowflake\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m09:42:31.946129 [debug] [MainThread]: Command `dbt compile` failed at 09:42:31.946129 after 0.19 seconds
+[0m09:42:31.946129 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000167D672E630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000167D62CCF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000167D2C1D550>]}
+[0m09:42:31.946129 [debug] [MainThread]: Flushing usage events
+[0m09:42:32.147208 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:33:56.214052 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F76DFFDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F73B8EA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F76E5CF50>]}
+
+
+============================== 16:33:56.224902 | 60119e14-3efc-4e73-a5ca-399b9036ceb9 ==============================
+[0m16:33:56.224902 [info ] [MainThread]: Running with dbt=1.11.8
+[0m16:33:56.226006 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': '.', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt compile --profiles-dir .', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:33:56.227016 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\DELL\Downloads\Project\Snowflake\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:33:56.228016 [debug] [MainThread]: Command `dbt compile` failed at 16:33:56.228016 after 0.30 seconds
+[0m16:33:56.228016 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F76E5CF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F777C4680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F76DFFDD0>]}
+[0m16:33:56.229023 [debug] [MainThread]: Flushing usage events
+[0m16:33:56.395944 [debug] [MainThread]: An error was encountered while trying to flush usage events
